@@ -9,8 +9,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Optimización para Cloudflare Pages - Static Export
-  output: 'export',
 }
 
 export default nextConfig
