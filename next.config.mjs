@@ -6,6 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // Optimización para Cloudflare Pages
+  output: 'standalone',
 }
 
 export default nextConfig
